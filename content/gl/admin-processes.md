@@ -1,7 +1,7 @@
 ## XII. Administración de procesos
 ### Executar as tarefas de xestión/administración como procesos que solo se executan unha vez
 
-El [juego de procesos](./concurrency) es el conjunto de procesos que se usa para hacer las tareas habituales de la aplicación (como procesar las peticiones web). Por otro lado, es frecuente que los desarrolladores quieran ejecutar procesos de administración o mantenimiento una sola vez, como por ejemplo:
+O [xogo de procesos](./concurrency) é o conxunto de procesos que se emprega para levar a cabo as tarefas habituais da aplicación (como procesar as peticións web). Por outro lado, é frecuente que os desenvolvedores queiran executar procesos de administración ou mantemento unha soa vez, como por exemplo:
 
 * Ejecutar migraciones de las bases de datos (e.g. `manage.py migrate` de Django, `rake db:migrate` de Rails).
 * Ejecutar una consola (también conocidas como [REPL](http://en.wikipedia.org/wiki/Read-eval-print_loop)) para ejecutar código arbitrario o inspeccionar los modelos de la aplicación en una base de datos con datos reales. La mayoría de los lenguajes proporcionan un interprete del tipo REPL si se ejecuta el mismo mandato sin ningún argumento (e.g. `python` o `perl`) pero en algunos casos tienen un mandato distinto (e.g. `irb` en Ruby, `rails console` en Rails).
