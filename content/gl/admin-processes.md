@@ -1,5 +1,5 @@
 ## XII. Administración de procesos
-### Executar as tarefas de xestión/administración como procesos que solo se executan unha vez
+### Executar as tareas de xestión/administración como procesos que solo se executan unha vez
 
 El [juego de procesos](./concurrency) es el conjunto de procesos que se usa para hacer las tareas habituales de la aplicación (como procesar las peticiones web). Por otro lado, es frecuente que los desarrolladores quieran ejecutar procesos de administración o mantenimiento una sola vez, como por ejemplo:
 
